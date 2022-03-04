@@ -1,0 +1,54 @@
+body{
+    /* background-color: bisque; */
+}
+header{
+    height: 20vh;
+    background-color:rgb(189, 37, 37);
+    display: flex;
+    justify-content: space-between;
+    
+}
+header > #end{
+    justify-self: flex-end;
+}
+header > div > ul{
+ justify-self: end;
+padding: 19px;
+}
+header  > div >ul > li {
+   display: inline;
+   
+}
+header > div >ul > li > a {
+   background-color: white;
+   text-decoration: none;
+   padding: 30px;
+   color: black;
+   font-size: 20px;
+ }
+section{
+    margin: 10px;
+    height: 80vh;
+    /* background-color: brown; */
+    display: flex;
+}
+section > #div1{
+height: 10rem;
+width: 50%;
+/* background-color: darkgoldenrod; */
+}
+section > #div2{
+height: 10rem;
+width: 40%; 
+/* background-color: darkred; */
+}
+section > #div2 > h1{
+    font-weight: 300px;
+}
+section > #div2 > p{
+    font-size: larger;
+}
+footer{
+    height: 10vh;
+    background-color:rgb(189, 37, 37);
+}
